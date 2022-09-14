@@ -5,8 +5,8 @@
     
     <entry>
       <title>关于Typora你可能不知道的用法</title>
-      <link href="/post/cb9cca01.html"/>
-      <url>/post/cb9cca01.html</url>
+      <link href="/post/58af2069.html"/>
+      <url>/post/58af2069.html</url>
       
         <content type="html"><![CDATA[<h1 id="关于Typora你可能不知道的用法"><a href="#关于Typora你可能不知道的用法" class="headerlink" title="关于Typora你可能不知道的用法"></a>关于Typora你可能不知道的用法</h1><h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><h3 id="关于版本信息和许可证"><a href="#关于版本信息和许可证" class="headerlink" title="关于版本信息和许可证"></a>关于版本信息和许可证</h3><p>​<code>Ctrl+逗号</code>可以打开偏好设置(Preference)菜单</p><p>初次使用时，可以检查一下许可证信息和自动更新，如果是破解版的话不建议勾选自动更新（</p><p>本人已经在官网购买了完整许可证所以勾选了自动更新，支持正版！</p><p><img src="https://pic.imgdb.cn/item/6320905016f2c2beb1d4f741.png" alt="image-20220913162140717"></p><p><img src="https://pic.imgdb.cn/item/6320905016f2c2beb1d4f755.png" alt="image-20220913162428240"></p><p>更新和认证之前一定要记得勾选Typora国内服务器，不然有可能无法正常完成</p><h3 id="便捷化"><a href="#便捷化" class="headerlink" title="便捷化"></a>便捷化</h3><p>在外观选项卡下建议勾选的项如下：</p><p><img src="https://pic.imgdb.cn/item/6320905016f2c2beb1d4f730.png" alt="image-20220913162830833"></p><p>勾选之后编辑markdown文件时会在左侧出现大纲和文件的可折叠侧边栏</p><p><img src="https://pic.imgdb.cn/item/6320905016f2c2beb1d4f734.png" alt="image-20220913163017696"></p><p>这个侧边栏可以帮助你更清晰的整理思路和规划全文</p><p><img src="https://pic.imgdb.cn/item/6320905016f2c2beb1d4f73b.png" alt="image-20220913164221905"><br><img src="https://pic.imgdb.cn/item/6320905e16f2c2beb1d507d8.png" alt="image-20220913164258822"></p><p>如果图片以相对路径保存到本地同名文件夹，在归档整理和打包的时候就会方便很多，值得一提的是，插入的图片也可以填网络地址</p><p><img src="https://pic.imgdb.cn/item/6320905e16f2c2beb1d507ef.png" alt="image-20220913165702997"><br><img src="https://pic.imgdb.cn/item/6320905e16f2c2beb1d507f4.png" alt="image-20220913165744453"></p><h2 id="基本快捷键"><a href="#基本快捷键" class="headerlink" title="基本快捷键"></a>基本快捷键</h2><p>简单的来说，快捷键是Typora的精华，能够大大提高码字效率，提升文章观感</p><p>​<code>Ctrl + &quot;数字1-6&quot;</code>1级-6级标题，通常是整行，会反映在大纲栏快捷索引</p><p>​<code>Ctrl + Shift + K</code>代码段，用于放置代码，放置在代码块里的字符不再受markdown语法影响，代码块还可以写入语言类型，相应语言的关键字会变成彩色</p><p><img src="https://pic.imgdb.cn/item/6320905e16f2c2beb1d507fe.png" alt="image-20220913170612986"></p><p>​<code>Ctrl + Shift + 点</code>代码块，放小块代码，不影响排版，可以插入在文章中间</p><p>​<code>Ctrl + B</code>黑体块</p><p>​<code>Ctrl + I</code>斜体块</p><p>​<code>Ctrl + Shift + [</code>左方框插入有序列表（1.2.3.）</p><p>​<code>Ctrl + Shift + ]</code>右方框插入无序列表（·）</p><p>​<code>Ctrl + Shift + M</code>公式块</p><h2 id="段落和块"><a href="#段落和块" class="headerlink" title="段落和块"></a>段落和块</h2><p>​<code>点号包裹</code><code>代码块</code>，这里的点号是指键盘上ESC键下方与“~”同框的键</p><p>​<code>*星号包裹</code><em>斜体块</em>，块内的字体改成斜体</p><p>​<code>**双星号包裹</code><strong>黑体块</strong>，双星号指的是两边都是两个星号</p><p>​<code>$美元符包裹</code>行内公式块</p><p>​<code>$$双美元符包裹</code>换行公式块</p><p>​<code>~~双波浪号包裹</code><del>删除线</del>块</p><p>​以上的内容都需要熟能生巧，多用就能记熟</p><h2 id="内联公式"><a href="#内联公式" class="headerlink" title="内联公式"></a>内联公式</h2><h3 id="行内公式和换行公式："><a href="#行内公式和换行公式：" class="headerlink" title="行内公式和换行公式："></a>行内公式和换行公式：</h3><p>这是行内公式$y&#x3D;ax$</p><p>这是换行公式<br>$$<br>y&#x3D;ax<br>$$<br>公式块内的公式代码会自动转义，操作空间很大；</p><h3 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h3><p><img src="https://pic.imgdb.cn/item/6320906f16f2c2beb1d51e9b.png" alt="在这里插入图片描述"></p><h3 id="数学符号"><a href="#数学符号" class="headerlink" title="数学符号"></a>数学符号</h3><table><thead><tr><th>markdown</th><th>公式显示</th></tr></thead><tbody><tr><td><code>x^2</code></td><td>$x^2$</td></tr><tr><td><code>x^&#123;22&#125;</code></td><td>$x^{22}$</td></tr><tr><td><code>x_2</code></td><td>$x_2$</td></tr><tr><td><code>\hat&#123;xy&#125;</code></td><td>$\hat{xy}$</td></tr><tr><td><code>\overline&#123;xy&#125;</code></td><td>$\overline{xy}$</td></tr><tr><td><code>\underline&#123;xy&#125;</code></td><td>$\underline{xy}$</td></tr><tr><td><code>\overbrace&#123;xy&#125;</code></td><td>$\overbrace{xy}$</td></tr><tr><td><code>\underbrace&#123;xy&#125;</code></td><td>$\underbrace{xy}$</td></tr><tr><td><code>a+b-c</code></td><td>$a+b-c$</td></tr><tr><td><code>x \pm y</code></td><td>$x \pm y$</td></tr><tr><td><code>x \mp y</code></td><td>$x \mp y$</td></tr><tr><td><code>x \times y</code></td><td>$x \times y$</td></tr><tr><td>&#96;</td><td>x</td></tr><tr><td><code>x \cdot y</code></td><td>$x \cdot y$</td></tr><tr><td><code>x \div y</code></td><td>$x \div y$</td></tr><tr><td><code>\frac &#123;x&#125;&#123;y&#125;</code></td><td>$\frac {x}{y}$</td></tr><tr><td><code>\sqrt [n]&#123;x+y&#125;</code></td><td>$\sqrt [n]{x+y}$</td></tr><tr><td><code>x \bigodot y</code></td><td>$x \bigodot y$</td></tr><tr><td><code>x \bigotimes y</code></td><td>$x \bigotimes y$</td></tr><tr><td><code>x \log y</code></td><td>$x \log y$</td></tr><tr><td><img src="https://pic.imgdb.cn/item/6320906616f2c2beb1d5130c.png" alt="image-20220913190652200"></td><td>$函数名&#x3D;\begin{cases}公式1 &amp; 条件1\公式2 &amp; 条件2\公式3 &amp; 条件3\end{cases}$</td></tr></tbody></table><h3 id="等式符号"><a href="#等式符号" class="headerlink" title="等式符号"></a>等式符号</h3><p><img src="https://pic.imgdb.cn/item/6320905e16f2c2beb1d50805.png" alt="image-20220913185747112"></p><h3 id="集合符号"><a href="#集合符号" class="headerlink" title="集合符号"></a>集合符号</h3><p><img src="https://pic.imgdb.cn/item/6320906616f2c2beb1d512fa.png" alt="image-20220913185825029"></p><p>p.s.集合符号网页显示可能不通用</p><h3 id="多项式符号"><a href="#多项式符号" class="headerlink" title="多项式符号"></a>多项式符号</h3><p><img src="https://pic.imgdb.cn/item/6320906616f2c2beb1d51305.png" alt="image-20220913185931442"></p><h3 id="矩阵和行列式"><a href="#矩阵和行列式" class="headerlink" title="矩阵和行列式"></a>矩阵和行列式</h3><p><img src="https://pic.imgdb.cn/item/6320906f16f2c2beb1d51eb2.png" alt="image-20220913220834666"><br><img src="https://pic.imgdb.cn/item/6320906f16f2c2beb1d51e94.png" alt="image-20220913220912427"></p><h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p><img src="https://pic.imgdb.cn/item/6320906616f2c2beb1d51313.png" alt="image-20220913215616807"></p><table><thead><tr><th>markdown</th><th>公式显示</th></tr></thead><tbody><tr><td><code>\\</code>（换行）</td><td>-</td></tr><tr><td><img src="https://pic.imgdb.cn/item/6320906616f2c2beb1d5131b.png" alt="image-20220913220120262"></td><td>$a!b\ ab \ a,b \ a;b\ a\ b \ a\quad b \ a\qquad b$</td></tr></tbody></table>]]></content>
       
@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 小工具 </tag>
-            
             <tag> Typora </tag>
+            
+            <tag> 小工具 </tag>
             
             <tag> markdown </tag>
             
@@ -78,11 +78,11 @@
       
         <tags>
             
+            <tag> 小工具 </tag>
+            
             <tag> Ubuntu </tag>
             
             <tag> Linux </tag>
-            
-            <tag> 小工具 </tag>
             
         </tags>
       
