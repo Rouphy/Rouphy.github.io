@@ -5,8 +5,8 @@
     
     <entry>
       <title>高斯消元法与矩阵的初等变换</title>
-      <link href="/post/0.html"/>
-      <url>/post/0.html</url>
+      <link href="/post/9f5dca89.html"/>
+      <url>/post/9f5dca89.html</url>
       
         <content type="html"><![CDATA[<h1 id="高斯消元法与矩阵的初等变换"><a href="#高斯消元法与矩阵的初等变换" class="headerlink" title="高斯消元法与矩阵的初等变换"></a>高斯消元法与矩阵的初等变换</h1><h2 id="行（简化）阶梯形矩阵"><a href="#行（简化）阶梯形矩阵" class="headerlink" title="行（简化）阶梯形矩阵"></a>行（简化）阶梯形矩阵</h2><h3 id="从方程组到矩阵"><a href="#从方程组到矩阵" class="headerlink" title="从方程组到矩阵"></a>从方程组到矩阵</h3><p>定义方程组$\,AX&#x3D;b\,$:<br>$$<br>A&#x3D;\left(<br>\begin{matrix}<br>a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n}\\<br>a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n}\\<br>\vdots &amp; \vdots &amp; &amp; \vdots\\<br>a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}<br>\end{matrix}<br>\right),<br>X&#x3D;\left(\begin{matrix}<br>x_{1} \\ x_{2} \\ \vdots \\ x_{n}<br>\end{matrix}\right),<br>b&#x3D;\left(\begin{matrix}<br>b_{1} \\ b_{2} \\ \vdots \\ b_{n}<br>\end{matrix}\right)\\<br>A被称为系数矩阵，则b就叫增广矩阵，系数矩阵和增广矩阵一一对应<br>$$<br>即<br>$$<br>\begin{cases}<br>a_{11}x_{1} + a_{12}x_{2} + \cdots + a_{1n}x_{n} &#x3D; b_{1}\\<br>a_{21}x_{1} + a_{22}x_{2} + \cdots + a_{2n}x_{n} &#x3D; b_{2}\\<br>\cdots\\<br>a_{m1}x_{1} + a_{m2}x_{2} + \cdots + a_{mn}x_{n} &#x3D; b_{n}<br>\end{cases}<br>$$<br>此时易得：<br>$$<br>当b &#x3D; 0时，AX&#x3D;0为齐次方程组\\反之，当b \neq 0时（至少有一个分量不为零），AX&#x3D;b为非齐次方程组<br>$$<br>那么借助矩阵，我们来试讨论方程组何时有解</p><h3 id="方程组行阶梯形矩阵"><a href="#方程组行阶梯形矩阵" class="headerlink" title="方程组行阶梯形矩阵"></a>方程组行阶梯形矩阵</h3><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce009.png" alt="image-20220915190652175"></p><p>通过<strong>一定变换</strong>得到的方程矩阵从其中一行最左的0头顶开始到第一位有效数字前结束划线，向下延伸并且继续类似规律，可以画出一个阶梯形</p><p>通常划线有以下规则：</p><ol><li><p>必须从某一行最左侧有0处开始</p></li><li><p>每次向下延伸有且只能延伸一行，不能跨两行</p></li><li><p>划线下面只能有0，不能有其他数字</p><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce00d.png" alt="image-20220915191847211"></p></li></ol><h2 id="初等变换"><a href="#初等变换" class="headerlink" title="初等变换"></a>初等变换</h2><p>上面提到化成阶梯形矩阵需要一定变换</p>]]></content>
       
