@@ -8,7 +8,7 @@
       <link href="/post/9f5dca89.html"/>
       <url>/post/9f5dca89.html</url>
       
-        <content type="html"><![CDATA[<h1 id="高斯消元法与矩阵的初等变换"><a href="#高斯消元法与矩阵的初等变换" class="headerlink" title="高斯消元法与矩阵的初等变换"></a>高斯消元法与矩阵的初等变换</h1><h2 id="行（简化）阶梯形矩阵"><a href="#行（简化）阶梯形矩阵" class="headerlink" title="行（简化）阶梯形矩阵"></a>行（简化）阶梯形矩阵</h2><h3 id="从方程组到矩阵"><a href="#从方程组到矩阵" class="headerlink" title="从方程组到矩阵"></a>从方程组到矩阵</h3><p>定义方程组$\,AX&#x3D;b\,$:<br>$$<br>A&#x3D;\left(<br>\begin{matrix}<br>a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n}\\<br>a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n}\\<br>\vdots &amp; \vdots &amp; &amp; \vdots\\<br>a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}<br>\end{matrix}<br>\right),<br>X&#x3D;\left(\begin{matrix}<br>x_{1} \\ x_{2} \\ \vdots \\ x_{n}<br>\end{matrix}\right),<br>b&#x3D;\left(\begin{matrix}<br>b_{1} \\ b_{2} \\ \vdots \\ b_{n}<br>\end{matrix}\right)\\<br>A被称为系数矩阵，则b就叫增广矩阵，系数矩阵和增广矩阵一一对应<br>$$<br>即<br>$$<br>\begin{cases}<br>a_{11}x_{1} + a_{12}x_{2} + \cdots + a_{1n}x_{n} &#x3D; b_{1}\\<br>a_{21}x_{1} + a_{22}x_{2} + \cdots + a_{2n}x_{n} &#x3D; b_{2}\\<br>\cdots\\<br>a_{m1}x_{1} + a_{m2}x_{2} + \cdots + a_{mn}x_{n} &#x3D; b_{n}<br>\end{cases}<br>$$<br>此时易得：<br>$$<br>当b &#x3D; 0时，AX&#x3D;0为齐次方程组\\反之，当b \neq 0时（至少有一个分量不为零），AX&#x3D;b为非齐次方程组<br>$$<br>那么借助矩阵，我们来试讨论方程组何时有解</p><h3 id="方程组行阶梯形矩阵"><a href="#方程组行阶梯形矩阵" class="headerlink" title="方程组行阶梯形矩阵"></a>方程组行阶梯形矩阵</h3><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce009.png" alt="image-20220915190652175"></p><p>通过<strong>一定变换</strong>得到的方程矩阵从其中一行最左的0头顶开始到第一位有效数字前结束划线，向下延伸并且继续类似规律，可以画出一个阶梯形</p><p>通常划线有以下规则：</p><ol><li><p>必须从某一行最左侧有0处开始</p></li><li><p>每次向下延伸有且只能延伸一行，不能跨两行</p></li><li><p>划线下面只能有0，不能有其他数字</p><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce00d.png" alt="image-20220915191847211"></p></li></ol><h2 id="初等变换"><a href="#初等变换" class="headerlink" title="初等变换"></a>初等变换</h2><p>上面提到化成阶梯形矩阵需要一定变换</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="高斯消元法与矩阵的初等变换"><a href="#高斯消元法与矩阵的初等变换" class="headerlink" title="高斯消元法与矩阵的初等变换"></a>高斯消元法与矩阵的初等变换</h1><h2 id="行（简化）阶梯形矩阵"><a href="#行（简化）阶梯形矩阵" class="headerlink" title="行（简化）阶梯形矩阵"></a>行（简化）阶梯形矩阵</h2><h3 id="从方程组到矩阵"><a href="#从方程组到矩阵" class="headerlink" title="从方程组到矩阵"></a>从方程组到矩阵</h3><p>定义方程组$\,AX&#x3D;b\,$:<br>$$<br>A&#x3D;\left(<br>\begin{matrix}<br>a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n}\\<br>a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n}\\<br>\vdots &amp; \vdots &amp; &amp; \vdots\\<br>a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}<br>\end{matrix}<br>\right),<br>X&#x3D;\left(\begin{matrix}<br>x_{1} \\ x_{2} \\ \vdots \\ x_{n}<br>\end{matrix}\right),<br>b&#x3D;\left(\begin{matrix}<br>b_{1} \\ b_{2} \\ \vdots \\ b_{n}<br>\end{matrix}\right)\\<br>A被称为系数矩阵，则b就叫增广矩阵，系数矩阵和增广矩阵一一对应<br>$$<br>即<br>$$<br>\begin{cases}<br>a_{11}x_{1} + a_{12}x_{2} + \cdots + a_{1n}x_{n} &#x3D; b_{1}\\<br>a_{21}x_{1} + a_{22}x_{2} + \cdots + a_{2n}x_{n} &#x3D; b_{2}\\<br>\cdots\\<br>a_{m1}x_{1} + a_{m2}x_{2} + \cdots + a_{mn}x_{n} &#x3D; b_{n}<br>\end{cases}<br>$$<br>此时易得：<br>$$<br>当b &#x3D; 0时，AX&#x3D;0为齐次方程组\\反之，当b \neq 0时（至少有一个分量不为零），AX&#x3D;b为非齐次方程组<br>$$<br>那么借助矩阵，我们来试讨论方程组何时有解</p><h3 id="方程组行阶梯形矩阵"><a href="#方程组行阶梯形矩阵" class="headerlink" title="方程组行阶梯形矩阵"></a>方程组行阶梯形矩阵</h3><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce009.png" alt="image-20220915190652175"></p><p>通过<strong>一定变换</strong>得到的方程矩阵从其中一行最左的0头顶开始到第一位有效数字前结束划线，向下延伸并且继续类似规律，可以画出一个阶梯形</p><p>通常划线有以下规则：</p><ol><li><p>必须从某一行最左侧有0处开始</p></li><li><p>每次向下延伸有且只能延伸一行，不能跨两行</p></li><li><p>划线下面只能有0，不能有其他数字</p><p><img src="https://pic.imgdb.cn/item/6328a1a716f2c2beb10ce00d.png" alt="image-20220915191847211"></p></li></ol><h2 id="初等变换"><a href="#初等变换" class="headerlink" title="初等变换"></a>初等变换</h2><p>上面提到化成阶梯形矩阵需要一定变换，如上文所述，方程组经过同解变换到每个等式有最少确定变量时，就能确定方程组解的数量，<strong>这种变换反应在矩阵上就叫初等变换</strong></p><h3 id="初等变换三条："><a href="#初等变换三条：" class="headerlink" title="初等变换三条："></a>初等变换三条：</h3><ol><li>交换两行（列）的位置</li><li>用一非零实数乘某一行（列）的所有元</li><li>把矩阵的某一行的适当倍数加到另一行（列）上去</li></ol><h3 id="人话："><a href="#人话：" class="headerlink" title="人话："></a>人话：</h3><ol><li>把消去元最多（0最多）的行往下拿</li><li>任意行乘以倍数</li><li>任意行乘以倍数之后再拿去跟另一行消元</li></ol><p>以上三条变换就是初等变换，有了初等变换后就可以将增广矩阵经过<strong>行初等变换</strong>化为行阶梯形</p><h3 id="从行阶梯形矩阵回到方程组"><a href="#从行阶梯形矩阵回到方程组" class="headerlink" title="从行阶梯形矩阵回到方程组"></a>从行阶梯形矩阵回到方程组</h3><p>从变换后的结果不难看出来，对于<code>非齐次方程组</code>($AX&#x3D;b$)，当：</p><p>行阶梯形中<strong>非零行的行数&lt;未知量个数</strong>时原方程组<strong>有无穷多解</strong></p><p>行阶梯形中<strong>非零行的行数&#x3D;未知量个数</strong>时原方程组<strong>有唯一解</strong></p><p>行阶梯形中<strong>系数元素都为0而常数项不为0</strong>时原方程组<strong>无解</strong></p><p><img src="https://pic.imgdb.cn/item/6329abf016f2c2beb1f4c590.png" alt="image-20220920190943373"></p><p>对于<code>齐次方程组</code>($AX&#x3D;0$)，则有：</p><p>行阶梯形中<strong>非零行的行数&lt;未知量的个数</strong>时原方程组<strong>有非零解（无穷多解）</strong></p><p>行阶梯形中<strong>非零行的行数&#x3D;未知量的个数</strong>时原方程组<strong>有且只有零解（唯一解）</strong></p><p><img src="https://pic.imgdb.cn/item/6329abf016f2c2beb1f4c597.png" alt="image-20220920191959720"></p><h3 id="矩阵等价"><a href="#矩阵等价" class="headerlink" title="矩阵等价"></a>矩阵等价</h3><p>当$\,A \stackrel{初等变换}{\longrightarrow} B \,$时，我们说此时$A与B等价$，记为$\, A \cong B \, $.</p><p>矩阵等价具有如下性质：</p><ol><li>反身性 $\quad A \cong A$</li><li>对称性 $\quad A \cong B \Rightarrow B \cong A$</li><li>传递性 $\quad A \cong B且B \cong C \Rightarrow A \cong C $</li></ol><h2 id="初等矩阵"><a href="#初等矩阵" class="headerlink" title="初等矩阵"></a>初等矩阵</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>对单位矩阵做一次初等变换所得矩阵</p><h3 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h3><p>对矩阵A做一次行（列）初等变换，相当于在A的左（右）边乘上相应的初等矩阵</p><h3 id="口诀：左乘行变，右乘列变"><a href="#口诀：左乘行变，右乘列变" class="headerlink" title="口诀：左乘行变，右乘列变"></a>口诀：左乘行变，右乘列变</h3><p>人话：看单位矩阵$I$的做了怎样的初等变换，然后按照$I$与矩阵$X$相乘时$I$在$X$左侧还是在右侧来根据口诀进行变换</p>]]></content>
       
       
       <categories>
@@ -70,9 +70,9 @@
       
         <tags>
             
-            <tag> 小工具 </tag>
-            
             <tag> Typora </tag>
+            
+            <tag> 小工具 </tag>
             
             <tag> markdown </tag>
             
@@ -128,11 +128,11 @@
       
         <tags>
             
+            <tag> 小工具 </tag>
+            
             <tag> Ubuntu </tag>
             
             <tag> Linux </tag>
-            
-            <tag> 小工具 </tag>
             
         </tags>
       
