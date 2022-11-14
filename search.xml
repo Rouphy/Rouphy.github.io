@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>逆矩阵</title>
+      <link href="/post/4b51846.html"/>
+      <url>/post/4b51846.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="逆矩阵"><a href="#逆矩阵" class="headerlink" title="逆矩阵"></a>逆矩阵</h1><h2 id="什么是逆矩阵"><a href="#什么是逆矩阵" class="headerlink" title="什么是逆矩阵"></a>什么是逆矩阵</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>设$A$为$n$阶矩阵，若存在$n$阶矩阵$B$，使得<br>$$<br>AB &#x3D; BA &#x3D; I<br>$$<br>则称$A$为<strong>可逆矩阵</strong>，$B$为$A$的<strong>逆矩阵</strong>，记为<br>$$<br>A^{-1} &#x3D; B<br>$$</p><h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><p>若$A$可逆，则$A^{-1}$存在，且$A A^{-1} &#x3D; A^{-1} A &#x3D; I$. 此时矩阵$A$的逆是唯一的</p><p>单位阵$I^{-1} &#x3D; I$</p><p>对角阵<br>$$<br>D &#x3D;<br>\left(<br>\begin{matrix}<br>d_1 &amp; &amp; \<br>&amp; \ddots &amp; \<br>&amp; &amp; d_n<br>\end{matrix}\right)<br>\quad \Rightarrow \quad<br>D^{-1} &#x3D;<br>\left(<br>\begin{matrix}<br>\frac{1}{d_1} &amp; &amp; \<br>&amp; \ddots &amp; \<br>&amp; &amp; \frac{1}{d_n}<br>\end{matrix}\right)<br>$$<br>$(kI)^{-1} &#x3D; \frac1k I,(k\neq0)$</p><h5 id="重要性质4条："><a href="#重要性质4条：" class="headerlink" title="重要性质4条："></a>重要性质4条：</h5><ol><li>$AB可逆，且(AB)^{-1}&#x3D;B^{-1}A^{-1}$</li><li>$A^{-1}可逆，且(A^{-1})^{-1} &#x3D; A$</li><li>$\lambda A可逆，且(\lambda A)^{-1}&#x3D;\frac1\lambda A^{-1}$</li><li>$A^T可逆，且(A^T)^{-1}&#x3D;(A^{-1})^T$</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 线代 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>向量组的秩和极大线性无关组</title>
+      <link href="/post/a83378b8.html"/>
+      <url>/post/a83378b8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="向量组的秩和极大线性无关组"><a href="#向量组的秩和极大线性无关组" class="headerlink" title="向量组的秩和极大线性无关组"></a>向量组的秩和极大线性无关组</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><ol><li>$\exists , r个向量线性无关$</li><li>$\forall , r+1个向量（不一定有）线性相关$</li></ol><p>$此时我们将r个线性无关的向量组成为极大组，r称为向量组的秩$</p><p>&#x3D;&#x3D;<strong>人话：</strong>&#x3D;&#x3D;</p><p>向量组里存在一个向量能被剩下的向量表示（线性相关）时，将它们逐个丢出，直到无法找到向量能被线性表示时剩下的向量组即为极大组</p><p>如果将能被其他向量表示的向量叫做“多余的”向量，那么上述表达可以这样表示：</p><p>&#x3D;&#x3D;<strong>将向量组里的多余向量拿出，直到没有多余的向量时剩下的组就是极大组</strong>&#x3D;&#x3D;</p><h2 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h2><ol><li>矩阵三秩相等：$r(A)&#x3D;S$</li><li>$I:\alpha_1,\cdots,\alpha_n; \quad II:\beta_1,\cdots,\beta_m，当I组可由II组线性表示，则I秩\leq II秩$</li><li>等价的向量组秩相等</li></ol><p>向量组等价：</p><p>$有I:\alpha_1,\cdots,\alpha_n; \quad II:\beta_1,\cdots,\beta_m，$$当I里的每一个元素都可以被II里的所有向量线性表出时，称I组可由II组线性表示；$$当I组可由II组线性表示 且 II组可由I组线性表示 同时成立，则称I，II等价.$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 线代 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>高斯消元法与矩阵的初等变换</title>
       <link href="/post/9f5dca89.html"/>
       <url>/post/9f5dca89.html</url>
@@ -70,9 +120,9 @@
       
         <tags>
             
-            <tag> 小工具 </tag>
-            
             <tag> Typora </tag>
+            
+            <tag> 小工具 </tag>
             
             <tag> markdown </tag>
             
@@ -128,11 +178,11 @@
       
         <tags>
             
+            <tag> 小工具 </tag>
+            
             <tag> Ubuntu </tag>
             
             <tag> Linux </tag>
-            
-            <tag> 小工具 </tag>
             
         </tags>
       
