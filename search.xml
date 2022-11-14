@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>通解和基础解系</title>
+      <link href="/post/57951388.html"/>
+      <url>/post/57951388.html</url>
+      
+        <content type="html"><![CDATA[<h1>通解和基础解系</h1><h2 id="归一性排他性">归一性排他性</h2><p><img src="https://pic.imgdb.cn/item/6372787816f2c2beb14fcd79.png" alt="image-20221112155355286"></p><p>每行的第每个数都要化为1</p><p>被选中的1所在的列，其他元素都要是0</p><p><img src="https://pic.imgdb.cn/item/6372787816f2c2beb14fcd7d.png" alt="image-20221112155816871"></p><p>由归一性排他性化简可以很快得出<strong>自由未知量</strong>（$x_1,x_2$）和<strong>受约束未知量</strong>（$x_3,x_4$）</p><h2 id="通解">通解</h2><p>由上面的转换之后很快能够得出方程的通解</p><p><img src="https://pic.imgdb.cn/item/6372787816f2c2beb14fcd81.png" alt="image-20221112160959513"><br>$$<br>\left(<br>\begin{matrix}<br>-7\<br>4\<br>1\<br>0<br>\end{matrix}<br>\right)<br>,<br>\left(<br>\begin{matrix}<br>3\<br>-2\<br>0\<br>1<br>\end{matrix}<br>\right)\<br>\xi_1 \qquad \xi_2<br>$$<br>转换之后形成两个常向量$\xi_1,\xi_2$其特点如下：</p><ol><li class="lvl-3"><p>$\xi_1,\xi_2为AX=0的解$</p></li><li class="lvl-3"><p>$\xi_1,\xi_2线性无关$</p></li><li class="lvl-3"><p>$常向量\xi的个数=4-约束未知量个数$</p></li></ol><p>如何快速记住怎么列通解式：</p><p>keywords:无关变量个数约束个数变号抄下来</p><p><a href="https://www.bilibili.com/video/BV1EV4y1478P?t=209.3">https://www.bilibili.com/video/BV1EV4y1478P?t=209.3</a></p><h2 id="基础解系">基础解系</h2><h3 id="定义">定义</h3><p>$$<br>A_{m\times n},r(A)=r,对AX=0,<br>$$</p><p>如果：</p><ol><li class="lvl-3"><p>$\xi_1,\cdots,\xi_s,为AX=0的解$</p></li><li class="lvl-3"><p>$\xi_1,\cdots,\xi_s线性无关$</p></li><li class="lvl-3"><p>$S=n-r$</p></li></ol><p><strong>此时称</strong>$\boldsymbol{\xi_1,\cdots,\xi_s}$<strong>为</strong>$\mathbf{AX=0}$<strong>的基础解系</strong></p><p>就是上述例子中提到的常向量$\xi$</p><p>此时通解就可以表示为：<br>$$<br>x=k_1\xi_1+\cdots+k_s\xi_s<br>$$</p><h2 id="非齐次线性方程组的通解">非齐次线性方程组的通解</h2><p>看完了上面齐次方程的通解和基础解系之后，我们来看一下非齐次式的通解<br>$$<br>对于AX=b;有增广矩阵\overline A=(A\vdots B)<br>$$<br><img src="https://pic.imgdb.cn/item/6372776116f2c2beb14e9412.png" alt="image-20221112204303142"></p><h6 id="第一步还是归一性排他性">第一步还是<strong>归一性排他性</strong></h6><p>简单的例子</p><p><img src="https://pic.imgdb.cn/item/6372776116f2c2beb14e9420.png" alt="image-20221112204515047"></p><p>​注意以上变换是对增广矩阵$\overline A$进行处理</p><p>移项得</p><p><img src="https://pic.imgdb.cn/item/6372776116f2c2beb14e9424.png" alt="image-20221112211725932"></p><h1>这时通解就可以得出：<br>$$<br>通解\quad<br>x=\left(<br>\begin{matrix}<br>2x_3+4\<br>-x_3+2x_4+3\<br>x_3\<br>x_4<br>\end{matrix}<br>\right)</h1><p>x_3\left(<br>\begin{matrix}<br>2\<br>-1\<br>1\<br>0<br>\end{matrix}<br>\right)<br>+<br>x_4\left(<br>\begin{matrix}<br>0\<br>2\<br>0\<br>1<br>\end{matrix}<br>\right)<br>+<br>\left(<br>\begin{matrix}<br>4\<br>3\<br>0\<br>0<br>\end{matrix}<br>\right)<br>$$</p><p>$$<br>即\quad x=<br>k_1\left(<br>\begin{matrix}<br>2\<br>-1\<br>1\<br>0<br>\end{matrix}<br>\right)<br>+<br>k_2\left(<br>\begin{matrix}<br>0\<br>2\<br>0\<br>1<br>\end{matrix}<br>\right)<br>+<br>\left(<br>\begin{matrix}<br>4\<br>3\<br>0\<br>0<br>\end{matrix}<br>\right)<br>$$</p><p>根据上式能够看出，非齐次的通解相当于齐次的通解+<strong>常数特解</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 线代 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>逆矩阵</title>
       <link href="/post/4b51846.html"/>
       <url>/post/4b51846.html</url>
